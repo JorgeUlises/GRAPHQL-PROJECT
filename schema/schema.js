@@ -54,7 +54,7 @@ const RootQuery = new GraphQLObjectType({
     }
 });
 
-/** 
+/** *
 {
     user(id: "1"){
         name
@@ -63,7 +63,7 @@ const RootQuery = new GraphQLObjectType({
     }
 }
 
-*/
+**/
 
 module.exports = new graphql.GraphQLSchema({
     query: RootQuery

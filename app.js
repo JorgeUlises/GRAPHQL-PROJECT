@@ -10,6 +10,7 @@ app.use('/graphql', graphqlHTTP({
     schema: schema
 }))
 
+// servidor habilitado en puerto 4000
 app.listen(4000, ()=>{
     console.log('listening in port 4000');
 })
