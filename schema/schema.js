@@ -54,7 +54,7 @@ const RootQuery = new GraphQLObjectType({
     }
 });
 
-/*
+/** 
 {
     user(id: "1"){
         name
